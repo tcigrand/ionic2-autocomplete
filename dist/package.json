@@ -1,90 +1,26 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "ionic2-auto-complete@1.5.0-beta",
-        "scope": null,
-        "escapedName": "ionic2-auto-complete",
-        "name": "ionic2-auto-complete",
-        "rawSpec": "1.5.0-beta",
-        "spec": "1.5.0-beta",
-        "type": "version"
-      },
-      "/Users/timcigrand/trunk/apto-desktop"
-    ]
-  ],
-  "_from": "ionic2-auto-complete@1.5.0-beta",
-  "_id": "ionic2-auto-complete@1.5.0-beta",
-  "_inCache": true,
-  "_location": "/ionic2-auto-complete",
-  "_nodeVersion": "7.10.0",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/ionic2-auto-complete-1.5.0-beta.tgz_1495052106304_0.6442410186864436"
+  "name": "ionic2-auto-complete",
+  "version": "1.5.0-release",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kadoshms/ionic2-autocomplete"
   },
-  "_npmUser": {
-    "name": "kadoshms",
-    "email": "kadoshms@gmail.com"
-  },
-  "_npmVersion": "4.2.0",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "ionic2-auto-complete@1.5.0-beta",
-    "scope": null,
-    "escapedName": "ionic2-auto-complete",
-    "name": "ionic2-auto-complete",
-    "rawSpec": "1.5.0-beta",
-    "spec": "1.5.0-beta",
-    "type": "version"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/ionic2-auto-complete/-/ionic2-auto-complete-1.5.0-beta.tgz",
-  "_shasum": "4f138a5e769cccbc0c189f7da7a0e61a581ed1ce",
-  "_shrinkwrap": null,
-  "_spec": "ionic2-auto-complete@1.5.0-beta",
-  "_where": "/Users/timcigrand/trunk/apto-desktop",
   "author": {
     "name": "mor",
     "email": "kadoshms@gmail.com"
   },
-  "bugs": {
-    "url": "https://github.com/kadoshms/ionic2-autocomplete/issues"
-  },
-  "dependencies": {},
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "4f138a5e769cccbc0c189f7da7a0e61a581ed1ce",
-    "tarball": "https://registry.npmjs.org/ionic2-auto-complete/-/ionic2-auto-complete-1.5.0-beta.tgz"
-  },
-  "homepage": "https://github.com/kadoshms/ionic2-autocomplete#readme",
   "keywords": [
     "angular"
   ],
   "license": "MIT",
-  "maintainers": [
-    {
-      "name": "kadoshms",
-      "email": "kadoshms@gmail.com"
-    }
-  ],
+  "bugs": {
+    "url": "https://github.com/kadoshms/ionic2-autocomplete/issues"
+  },
   "module": "ionic2-auto-complete.js",
-  "name": "ionic2-auto-complete",
-  "optionalDependencies": {},
+  "typings": "ionic2-auto-complete.d.ts",
   "peerDependencies": {
     "@angular/core": "^4.0.0",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
-  },
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kadoshms/ionic2-autocomplete.git"
-  },
-  "scripts": {},
-  "main": "dist/ionic2-auto-complete.umd.js",
-  "typings": "dist/ionic2-auto-complete.d.ts",
-  "version": "1.5.0-beta"
+  }
 }
