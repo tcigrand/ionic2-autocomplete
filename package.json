@@ -79,6 +79,6 @@
     "node": ">=6.0.0"
   },
   
-  "main": "dist/ionic2-auto-complete.umd.js",
+  "main": "dist/ionic2-auto-complete.js",
   "typings": "dist/ionic2-auto-complete.d.ts"
 }
